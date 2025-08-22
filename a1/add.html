@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Add Skill · SkillSwap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="logo-background">
+    <div class="container">
+      <h1>Web Programming</h1>
+      <h2>COSC2446</h2>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">
+          <img src="images/SkillSwap_logo.png" alt="Logo" style="height:20px; vertical-align:middle; margin-right:3px;">
+        </a>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">About Me / Skills</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="add.html">Add Skill</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h2>Add a New Skill</h2>
+
+    <form id="addSkillForm" class="row" novalidate>
+      <div class="col-sm-6 form-group">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text" class="form-control" placeholder="e.g., Guitar Basics" required>
+      </div>
+
+      <div class="col-sm-6 form-group">
+        <label for="category">Category</label>
+        <input id="category" name="category" type="text" class="form-control" placeholder="e.g., Music" required>
+      </div>
+
+      <div class="col-xs-12 form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4" class="form-control" placeholder="Brief description..." required></textarea>
+      </div>
+
+      <div class="col-sm-6 form-group">
+        <label for="rate">Rate per hour</label>
+        <input id="rate" name="rate" type="number" min="0" step="1" class="form-control" placeholder="e.g., 25" required>
+      </div>
+
+      <div class="col-sm-6 form-group">
+        <label for="level">Level</label>
+        <select id="level" name="level" class="form-control" required>
+          <option value="">Please select</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+
+      <div class="col-xs-12 form-group">
+        <label for="image">Image</label>
+        <input id="image" name="image" type="file" class="form-control"
+               accept=".jpg,.jpeg,.png,.gif,.webp" required>
+        <p class="help-block">Allowed: jpg, jpeg, png, gif, webp</p>
+      </div>
+
+      <div class="col-xs-12">
+        <button type="submit" class="btn btn-primary">Validate</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container">©Long Qian 2025</div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

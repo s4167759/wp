@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="logo-background">
+    <h1>Web Programming</h1>
+    <h2>COSC2446</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">
+          <img src="images/SkillSwap_logo.png" alt="Logo" style="height:20px; vertical-align:middle; margin-right:3px;">
+        </a>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="add.html">Add</a></li>
+    </ul>
+  </nav>
+
+  <main class="section-container">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Click any picture to view it larger.</p>
+
+      <div class="row" style="margin-top:20px;">
+        <div class="col-sm-3"><img src="images/4.png" class="img-thumbnail" alt="Skill 1" data-toggle="modal" data-target="#g1"></div>
+        <div class="col-sm-3"><img src="images/5.png" class="img-thumbnail" alt="Skill 2" data-toggle="modal" data-target="#g2"></div>
+        <div class="col-sm-3"><img src="images/7.png" class="img-thumbnail" alt="Skill 3" data-toggle="modal" data-target="#g3"></div>
+        <div class="col-sm-3"><img src="images/8.png" class="img-thumbnail" alt="Skill 4" data-toggle="modal" data-target="#g4"></div>
+      </div>
+
+      <div class="row" style="margin-top:20px;">
+        <div class="col-sm-3"><img src="images/hero1.png" class="img-thumbnail" alt="Skill 5" data-toggle="modal" data-target="#g5"></div>
+        <div class="col-sm-3"><img src="images/hero2.png" class="img-thumbnail" alt="Skill 6" data-toggle="modal" data-target="#g6"></div>
+        <div class="col-sm-3"><img src="images/hero3.png" class="img-thumbnail" alt="Skill 7" data-toggle="modal" data-target="#g7"></div>
+        <div class="col-sm-3"><img src="images/profile.png" class="img-thumbnail" alt="Skill 8" data-toggle="modal" data-target="#g8"></div>
+      </div>
+    </div>
+  </main>
+
+  <div id="g1" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/4.png" class="img-responsive" alt="Skill 1"></div></div></div>
+  <div id="g2" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/5.png" class="img-responsive" alt="Skill 2"></div></div></div>
+  <div id="g3" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/7.png" class="img-responsive" alt="Skill 3"></div></div></div>
+  <div id="g4" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/8.png" class="img-responsive" alt="Skill 4"></div></div></div>
+  <div id="g5" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/hero1.png" class="img-responsive" alt="Skill 5"></div></div></div>
+  <div id="g6" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/hero2.png" class="img-responsive" alt="Skill 6"></div></div></div>
+  <div id="g7" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/hero3.png" class="img-responsive" alt="Skill 7"></div></div></div>
+  <div id="g8" class="modal fade" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><img src="images/profile.png" class="img-responsive" alt="Skill 8"></div></div></div>
+
+  <footer>&copy; Long Qian 2025</footer>
+</body>
+</html>
+

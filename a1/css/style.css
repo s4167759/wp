@@ -70,3 +70,31 @@ main {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.skills-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skills-gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+#mainCarousel { margin-bottom: 20px; }
+
+#mainCarousel .carousel-inner,
+#mainCarousel .carousel-inner > .item { 
+  height: 400px;               
+}
+
+#mainCarousel .carousel-inner > .item > img {
+  width: 100%;
+  height: 100% !important;    
+  object-fit: cover;           
+  display: block;
+}

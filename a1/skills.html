@@ -1,40 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <meta name="author" content="s4167759">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <header class="logo-background">
-        <h1>Web Programming</h1>
-        <h2>COSC2446</h2>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </nav>
-    <main class="section-container">
-        <section>
-            <h2>Brief Bio</h2>
-            <p>For most of my professional career, of 20 plus years, I spent in the Software Engineering field where I
-                gained a broad
-                practical experience in front and back-end development. Also for three years prior to joining RMIT, I
-                held the position
-                of Enterprise Architect in a large transformational project at the Bureau of Meteorology. I have solid
-                industry
-                experience that includes modern technologies. I have been teaching at RMIT since 2020.
-            </p>
-        </section>
-    </main>
-    <footer>&copy;Your name here 2025</footer>
-</body>
+  <header class="logo-background">
+    <h1>Web Programming</h1>
+    <h2>COSC2446</h2>
+  </header>
 
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">
+          <img src="images/SkillSwap_logo.png" alt="Logo" style="height:20px; vertical-align:middle; margin-right:3px;">
+        </a>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="add.html">Add</a></li>
+    </ul>
+  </nav>
+
+  <main class="section-container">
+    <div class="container">
+      <section class="row">
+        <div class="col-md-5">
+          <img src="images/skills_banner.png" alt="Skills banner" class="img-responsive img-rounded">
+        </div>
+
+        <div class="col-md-7">
+          <h2>My Skills</h2>
+          <p>Here are some of the skills I enjoy and practice:</p>
+
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Category</th>
+                  <th>Level</th>
+                  <th>Rate/hr</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Guitar Basics</td>
+                  <td>Music</td>
+                  <td>Beginner</td>
+                  <td>$20</td>
+                </tr>
+                <tr>
+                  <td>Cooking</td>
+                  <td>Food</td>
+                  <td>Beginner</td>
+                  <td>$25</td>
+                </tr>
+                <tr>
+                  <td>Art &amp; Drawing</td>
+                  <td>Art</td>
+                  <td>Intermediate</td>
+                  <td>$30</td>
+                </tr>
+                <tr>
+                  <td>Web Basics</td>
+                  <td>IT</td>
+                  <td>Beginner</td>
+                  <td>$22</td>
+                </tr>
+                <tr>
+                  <td>Yoga</td>
+                  <td>Sport</td>
+                  <td>Beginner</td>
+                  <td>$18</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-muted">* Rates are indicative for demo purposes.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>&copy; Long Qian 2025</footer>
+</body>
 </html>
+
