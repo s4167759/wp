@@ -2,3 +2,28 @@
   height: 360px;       
   object-fit: cover;
 }
+
+:root{
+  --brand-from:#6a11cb;
+  --brand-to:#2575fc;
+  --brand-dark:#4b0fbf;
+}
+
+body{ font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+a{ text-decoration: none; }
+a:hover{ text-decoration: underline; }
+
+.navbar-gradient{
+  background: linear-gradient(90deg, var(--brand-from), var(--brand-to));
+}
+.footer-gradient{
+  background: linear-gradient(90deg, var(--brand-from), var(--brand-to));
+}
+
+.carousel-item img{
+  height: 360px;           
+  object-fit: cover;
+}
+
+.img-detail{ max-width:360px; height:auto; border:1px solid #ccc; }
+.img-thumb { width:180px; height:180px; object-fit:cover; border:1px solid #ddd; }
